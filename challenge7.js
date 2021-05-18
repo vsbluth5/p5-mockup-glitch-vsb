@@ -8,12 +8,16 @@ function draw() {
 strokeWeight(8);
   fill(55, 55, 150);
   
+  // What is TRIANGLE_FAN?
+  // This is definitely not the best way to draw a star
   beginShape(TRIANGLE_FAN);
-  vertex(300, 450);
+  
   vertex(300, 20);
-  vertex(92, 50);
-  vertex(57.5, 85);
-  vertex(22, 50);
-  vertex(57.5, 15);
+  vertex(150, 450);
+  vertex(500, 150);
+  vertex(50, 150);
+  vertex(500, 450);
+  vertex(300, 20);
+
   endShape();
 }
