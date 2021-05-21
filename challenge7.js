@@ -26,10 +26,14 @@ strokeWeight(8);
   
   vertex(300, 20);
   vertex(150, 450);
+   vertex(150, 450);
+  vertex(500, 150);
   vertex(500, 150);
   vertex(50, 150);
+  vertex(50, 150);
   vertex(500, 450);
-  vertex(300, 20);
+  vertex(500, 450);
+  // vertex(300, 20);
 
-  endShape();
+  endShape(CLOSE);
 }
